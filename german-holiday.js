@@ -33,7 +33,7 @@ function bubeCaluclation (date) {
     }
 }
 
-function holidayCheck (date, state) {
+exports.holidayCheck = function (date, state) {
     function checkIndividual (holidate, states, holiday) {
         //checks if the passed date equals the the holiday. If true: check if it is a state-specific holiday
         if (date.valueOf() == holidate.valueOf() && ((states != false) ? ((states.indexOf(state) != -1) ? true : false) : true)) {

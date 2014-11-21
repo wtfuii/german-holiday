@@ -1,6 +1,6 @@
 {
   "name": "german-holiday",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check whether a date is a german holiday",
   "main": "german-holiday.js",
   "scripts": {
@@ -12,6 +12,7 @@
   },
   "keywords": [
     "german",
+    "germany",
     "urlaubstage",
     "urlaub",
     "holidays",
