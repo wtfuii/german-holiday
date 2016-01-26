@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Check whether a date is a german holiday",
-  version: "1.1.0",
+  version: "1.2.0",
   git: "https://github.com/wtfuii/german-holiday.git"
 });
 
