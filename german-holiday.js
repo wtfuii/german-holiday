@@ -57,6 +57,7 @@ holidayCheck = function (date, state) {
         [new Date(easter.valueOf()).setDate(easter.getDate() + 60), ["BW", "BY", "HE", "NW", "RP", "SL"], "Fronleichnam"],
         [new Date(date.getFullYear(), 9, 3), [], "Tag der deutschen Einheit"],
         [new Date(date.getFullYear(), 9, 31), ["BB", "MV", "SN", "ST", "TH"], "Reformationstag"],
+        [new Date(date.getFullYear(), 10, 1), ["BW", "BY", "NW", "RP", "SL"], "Allerheiligen"],
         [bubeCaluclation(date), ["SN"], "Buß- und Bettag"],
         [new Date(date.getFullYear(), 11, 25), [], "1. Weihnachtstag"],
         [new Date(date.getFullYear(), 11, 26), [], "2. Weihnachtstag"]
