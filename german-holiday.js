@@ -55,6 +55,7 @@ holidayCheck = function (date, state) {
         [new Date(easter.valueOf()).setDate(easter.getDate() + 49), ["BB"], "Pfingstsonntag"],
         [new Date(easter.valueOf()).setDate(easter.getDate() + 50), [], "Pfingstmontag"],
         [new Date(easter.valueOf()).setDate(easter.getDate() + 60), ["BW", "BY", "HE", "NW", "RP", "SL"], "Fronleichnam"],
+        [new Date(date.getFullYear(), 7, 15), ["BY", "SL"], "Mariä Himmelfahrt"],
         [new Date(date.getFullYear(), 9, 3), [], "Tag der deutschen Einheit"],
         [new Date(date.getFullYear(), 9, 31), ["BB", "MV", "SN", "ST", "TH"], "Reformationstag"],
         [new Date(date.getFullYear(), 10, 1), ["BW", "BY", "NW", "RP", "SL"], "Allerheiligen"],
