@@ -8,7 +8,7 @@ Installation of german-holiday is as easy as every other NPM-package.
 ```sh
 $ npm install german-holiday
 ```
-##Usage
+## Usage
 Call the ```holidayCheck``` function and pass two arguments. 
 * First argument: A JavaScript Date Object.
 * Second argument: The short form of a german state as string. 
@@ -34,7 +34,7 @@ Possible short forms:
 |SH | Schleswig-Holstein
 |TH | Thüringen
 
-##Examples
+## Examples
 Input:
 ```JavaScript
 var hcheck = require("german-holiday")
